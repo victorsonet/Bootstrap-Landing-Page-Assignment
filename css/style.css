@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header h1 a {
+    color: #141414;
+}
+
+header a {
+    color: #707070;
+}
+
+header a:hover {
+    color: #141414;
+}
+
+.current {
+    color: #141414;
+    font-weight: bold;
+}
+
+#mobile-menu {
+    background-image: url(../img/menu.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+/* HERO SECTION */
+
+#hero-section-bg-1 {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    /* max-width: 100%; */
+}
+
+/* ARTICLE SECTION */
+#article-section hr {
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+}
+
+#article-section img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#article-section p {
+    margin-bottom: .5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222222;
+}
+
+footer hr {
+    margin: 0rem 0rem;
+}
+
+#copyright {
+    background-color: #111111;
+}
